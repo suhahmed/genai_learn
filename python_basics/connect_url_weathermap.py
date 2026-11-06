@@ -2,7 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 
-load_dotenv()  # Load environment variables from .env fi
+load_dotenv()  # Load environment variables from .env file
 OPENWEATHERMAP_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
 COUNTRY_CODE = input("Enter the country code (e.g., 'us' for the United States): ")
 ZIP_CODE = input("Enter the ZIP code (e.g., '10001' for New York): ")
